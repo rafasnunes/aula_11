@@ -26,7 +26,8 @@ try:
             print('Digite apenas números.')
 
         else:
-            if 0 <= n1 <= 10 and 0 <= n2 <= 10: # Ou poderia utilizar " if n1 in range(0, 10): "
+            if 0 <= n1 <= 10 and 0 <= n2 <= 10:  
+            # Ou poderia " if n1 in range(0, 10) and n2 in range(0, 10): "
                 media = (n1 + n2) / 2
                 print(f'A média do aluno é: {media}')
 
